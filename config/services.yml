@@ -4,7 +4,6 @@ services:
         arguments:
             - '@controller.helper'
             - '@template'
-            - '@config'
             - '@dbal.conn'
             - '@user'
         tags:

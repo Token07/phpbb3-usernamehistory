@@ -28,11 +28,10 @@ class listener implements EventSubscriberInterface
 		);
 	}
 
-	public function __construct(\phpbb\controller\helper $helper, \phpbb\template\template $template, \phpbb\config\config $config, \phpbb\db\driver\factory $db, \phpbb\user $user)
+	public function __construct(\phpbb\controller\helper $helper, \phpbb\template\template $template, \phpbb\db\driver\factory $db, \phpbb\user $user)
 	{
 		$this->helper = $helper;
 		$this->template = $template;
-		$this->config = $config;
 		$this->db = $db;
 		$this->user = $user;
 	}
