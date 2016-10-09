@@ -2,7 +2,7 @@
 	"name": "token07/usernamehistory",
 	"type": "phpbb-extension",
 	"description": "Displays a user's name changes",
-	"version": "1.0.0-beta1",
+	"version": "1.0.0",
 	"license": "GPL-2.0",
 	"authors": [
 		{
